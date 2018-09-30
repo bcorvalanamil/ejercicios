@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hola Mundo</title>
+	<script type="text/javascript" src="bloqueuno.js"></script>
+</head>
+<body>
+
+<h4 style="color:blue;">Tipos de datos</h4>
+<p>
+	entero = 44<br>
+	cadena de texto(sting)= "texto entre comillas". Da lo mismo que tipo de comillas pones, pero las comillas dobles tiene mayor proriedad que las comillas simples. <br>
+	booleano = true o fale. O tambien puede ser un 0 o 1. True= 1 y False = 0  <br>
+	<strong> La funcion Number:();</strong><br>
+	var_number_falso="33"; aca me lo esta mostrando como texto /string para convertirlo en un numero entero tendria que utilizar la funcion Number:()= <br>
+	console.log(Number(numero_falso)+6); <br>
+	Esta funcion nos permite convertir un string en cualquier tipo de numero (ej.flotante)<br>
+	<strong> La funcion parseInt</strong><br>
+	console.log(parseInt(numero_falso)+7); <br>
+	Esta funcion permite convertir el string en un numero entero. <br>
+	<strong> La funcion parseFloat</strong><br>
+	console.log(parseFloat(numero_falso)+7); <br>
+	Me va a mostrar el resultado con decimal.<br>
+	Podemos tener un numero entero  y querer convertirlo en un string, para no sumar:( esto sirve para concatenar numeros) <br>
+	cosnole.log(String(numero_entero+4)); <br>
+	Entero <br>
+	Sting <br>
+	coma flotante o decimal <br>
+	booleano (true o false) <br>
+	array <br>
+	objetos<br>
+
+
+</p>
+
+
+<h2 style="color:blue;">Tipos de operadores</h2>
+<h4>Son operadores matematicos que nos permite hacer difrentes operaciones</h4>
+<p>Si el valor de una variable lo pones sin comillas, ya lo tomo como un entero. Con comillas lo interpreta como string</p>
+<p> + - % * 
+<p>El % entre dos numeros te da el resto entre ambos numero</p>
+
+<h4>Para saber que tipo de datos es: </h4>
+<p>console.log(typeof numero_entero);</p>
+
+<h2 style="color:blue;">Operadores Racionales</h2>
+<p>
+
+AND(Y): && <br>
+OR(0): || <br>
+NEGACION: ! <br>
+
+</p>
+
+<h2 style="color:blue;">Operadores logicos</h2>
+<p>
+
+> Mayor <br>
+< Menor <br>
+<= Menor o igual <br> 
+>= Mayor o igual <br>
+== igual <br> 
+!= Importante <br>
+</p>
+
+
+
+
+<h2 style="color:blue;">Condicionales</h2>
+<h4>Es una estrucutra de control que nos permite compara algo, si A == B haz algo</h4>
+<h5>If es la estrucutra de control más basica, que nos permite hacer una condción </h5>
+<p>
+	if(si pasa esto){ <br>
+	ejecuta esto <br>
+} <br>
+Esta el if (solo) / if con else ( si no pasa lo primero que pase lo segundo) / if  / if else ( aca se proponen dos condicones ) 
+</p>
+
+<h2 style="color:blue;">Switch</h2>
+<h4>Estructura de controlo que nos permite hacer muchas condicones de manera organizada</h4>
+<p> 
+	var edad = 18; <br>
+	switch(edad){ <br>
+	case 18 :<br>
+	console.log(edad);<br>
+	break;
+	para cambiar de caso hay que poner la palabra break, para poner la otra condicion. <br>
+	default : en caso que nada de lo anterior pase, pase esto. 
+	break;
+<h2 style="color:blue;">Bucle For</h2>
+<h4>Es una estructura de control que va repitiendo un numero x cantidad de veces</h4>
+<p>
+	var numero = 100;<br>
+	for(contador;condcion(en que caso va seguir iternado); el incrementador o decrementador);{<br>
+}
+var numero = 100; <br>
+for(var i = 0; i < numero; i++){ <br>
+	console.log("vamos por el numero"+i); <br>
+}
+
+</p>
+
+<h2 style="color:blue;">Bucle While</h2> 
+<h4>Puedo hacer bucles infintios y puede ser indefindo // Mientras pase esto, pasa esto// comprobamos una condicion
+y luego ejecutamos un bloque de instruciones 
+</h4>
+<p>
+	var year = 2018; <br>
+
+	while(year <=20151){<br>
+	console.log("Estamos en el años:"+year);
+	year++;<br>
+	este es un operador de decremento 
+	year --; <br> 
+
+
+} <br>
+Para cortar el while, hay que hacer un operador de incremento /decremento . De esta manera corto el bucle.
+
+</p>
+<h2 style="color:blue;">Bucle  DO While</h2> 
+<h4>Primero ejecutamos un bloque de instruciones y luego verificamos la condicion y luego puede volver a ejecutarce la instrucion o solo ejecutarse  </h4>
+
+<p>
+	var year = 20;
+	do{ 
+		alert("Solo cuando sea difrente a 20");
+		year = 20;
+
+
+}while(year != 20)
+</p>
+
+
+
+
+
+
+
+
+	
+</body>
+</html>
